@@ -1,7 +1,7 @@
 ARG BASE_IMAGE_NAME="silverblue"
 ARG FEDORA_MAJOR_VERSION="40"
 ARG SOURCE_IMAGE="${BASE_IMAGE_NAME}-main"
-ARG BASE_IMAGE="ghcr.io/ublue-os/${SOURCE_IMAGE}"
+ARG BASE_IMAGE="ghcr.io/herobrauni/${SOURCE_IMAGE}"
 
 FROM scratch AS ctx
 COPY / /
